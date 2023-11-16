@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color:  #A0E9FF;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  padding-bottom: 0px;
+  color:  #557C55;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-top: 0px;
+  color: #557C55;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:  #A0E9FF;
+  text-align: left;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #A0E9FF 6px ;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+a{
+  color: #557C55;
+  font-family:  'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 20px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+ .top-container{
+   background-color: #A0E9FF;
+   position: relative;
+   padding-top: 100px;
+ }
+
+ .middle-container{
+   margin: 100px 0;
+ }
+
+ .bottom-container{
+   background-color: #66BFBF;
+   padding: 50px 0px 20px;
+}
+
+.intro{width: 30%;
+margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+ .top-cloud{
+   position: absolute;
+   right: 300px;
+   top: 40px;
+ }
+
+ .bottom-cloud{
+   position: absolute;
+   left: 250px;
+   bottom: 300px;
+ }
+.circular{
+  border: solid;
+  border-radius: 1000px;
+  border-color: #A0E9FF;
+  height: 150px;
+  width: 150px;
+}
+
+.top-circular{
+  border: solid;
+  border-radius: 1000px;
+  border-color: #A0E9FF;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-circular{
+  border: solid;
+  border-radius: 1000px;
+  border-color: #A0E9FF;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.code-img-description{
+  clear: left;
+}
+
+.code-description{
+  clear: left;
+}
+
+
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:152px;
+  border-width:10px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 5px #3d768a;
+  background: #66BFBF;
+}
+
+.buttonClass:hover {
+  background: #599bb3;
+}
